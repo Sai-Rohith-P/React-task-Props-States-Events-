@@ -1,0 +1,111 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.taskhead {
+  display: flex;
+}
+
+.task {
+  margin: auto;
+}
+
+.taskName {
+  margin-left: 100px;
+}
+
+.Props {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.Props h1 {
+  text-decoration: underline;
+}
+.counterApp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.counterApp h1{
+  text-decoration: underline;
+}
+.buttons {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+.buttons button{
+  width: 80px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+
+}
+.count{
+  font-size: 26px;
+  font-weight: 600;
+}
+.add{
+  background-color: green;
+}
+.sub{
+  background-color: red;
+}
+.Events{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.Events button{
+  width: 180px;
+  height: 60px;
+  border: none;
+  background-color: blue;
+  font-size: 19px;
+  color: white;
+  cursor: pointer;
+}
